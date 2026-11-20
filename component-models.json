@@ -161,6 +161,55 @@
     ]
   },
   {
+    "id": "cards-gradient-card",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards-image-top-card",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -182,6 +231,25 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "carousel-image-only-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "media_image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "media_imageAlt",
+        "value": "",
+        "label": "Image Alt"
       }
     ]
   },
@@ -212,6 +280,63 @@
     ]
   },
   {
+    "id": "columns-media",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "columns-sidebar",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "columns-teaser",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -227,6 +352,31 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "embed-dm-viewer",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "embed_placeholder",
+        "label": "Placeholder Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "embed_placeholderAlt",
+        "value": "",
+        "label": "Placeholder Image Alt Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "embed_uri",
+        "label": "Dynamic Media Viewer URL"
       }
     ]
   },
@@ -282,6 +432,31 @@
     ]
   },
   {
+    "id": "hero-inset-card",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "hero",
     "fields": [
       {
@@ -304,6 +479,50 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "hotspot",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "image",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "value": "",
+        "label": "Background Image Alt"
+      }
+    ]
+  },
+  {
+    "id": "hotspot-item",
+    "fields": [
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "link",
+        "label": "Media URL (video or viewer)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "left",
+        "value": "",
+        "label": "Left position (%)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "top",
+        "value": "",
+        "label": "Top position (%)"
       }
     ]
   },

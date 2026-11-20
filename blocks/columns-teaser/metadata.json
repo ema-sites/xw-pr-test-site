@@ -1,0 +1,20 @@
+{
+  "variantName": "columns-teaser",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "variantDescriptor": "Large display heading (accent-colored word) left, body copy + uppercase arrow CTA right; text-only.",
+    "sectionStylingNotes": "Small uppercase eyebrow \"PRIVACY CENTER\" above a two-column teaser: large heading \"We are transparent.\" (word \"transparent.\" in green) on the left; paragraph and uppercase arrow CTA on the right.",
+    "background": "#ffffff",
+    "purpose": "Text-only two-column teaser: display heading left, body copy and CTA right"
+  },
+  "contentPattern": {
+    "structure": "one row, two cells: cell 1 heading (may include emphasized accent word); cell 2 paragraph(s) + a link-only paragraph as CTA",
+    "description": "Heading \"We are transparent.\" left; paragraph + CTA \"LEARN HOW WE MANAGED PERSONAL INFORMATION\" right"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for a section intro statement with a large heading opposite supporting copy and a call-to-action link.",
+  "reuseGuidance": "Reuse for any heading-left / copy-right teaser without images. Use columns-media when one side is an image.",
+  "sourceUrl": "https://www.abbvie.com/privacy-center.html"
+}

@@ -1,0 +1,195 @@
+{
+  "templates": [
+    {
+      "name": "privacy-center",
+      "urls": [
+        "https://www.abbvie.com/privacy-center.html"
+      ],
+      "representativeUrl": "https://www.abbvie.com/privacy-center.html",
+      "description": "AbbVie Privacy Center landing page: hero with inset title card, intro with helpful links, teaser, audience cards, image/text rows on light-blue panel, closing text.",
+      "blocks": [
+        {
+          "name": "hero-inset-card",
+          "instances": [
+            ".hero-container"
+          ]
+        },
+        {
+          "name": "columns-sidebar",
+          "instances": [
+            ".grid-container-inner:has(.eyebrow-text.divider)"
+          ]
+        },
+        {
+          "name": "columns-teaser",
+          "instances": [
+            ".teaser .teaser-content"
+          ]
+        },
+        {
+          "name": "cards-image-top",
+          "instances": [
+            ".grid-container-inner:has(> .grid-cols-4.custom-image-container)"
+          ]
+        },
+        {
+          "name": "columns-media",
+          "instances": [
+            ".bg-f1f3ff .grid-container-inner"
+          ]
+        }
+      ],
+      "urlPattern": "/*",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": [
+            "#main-content > .section.hero-container-container"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-inset-card"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Intro with helpful links",
+          "selector": [
+            "#main-content > .section.grid-container:has(.eyebrow-text.divider)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-sidebar"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "We are transparent",
+          "selector": [
+            "#main-content > .section.teaser-container"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-teaser"
+          ],
+          "defaultContent": [
+            ".teaser-eyebrow"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Privacy audiences cards",
+          "selector": [
+            "#main-content > .section.grid-container:has(> .grid-container-inner > .grid-cols-4.custom-image-container)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-image-top"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "We honor your choices / Committed to your privacy",
+          "selector": [
+            "#main-content > .section.bg-f1f3ff"
+          ],
+          "style": "light-blue",
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "We prioritize your security",
+          "selector": [
+            "#main-content > .section.container-medium.custom-title-container"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".custom-title-heading",
+            ".text-container-text"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "travel-hospitality",
+      "urls": [
+        "https://aem-dynamicmedia-demo--dm--hlxsites.aem.page/travel-hospitality/wknd-trvl-home"
+      ],
+      "representativeUrl": "https://aem-dynamicmedia-demo--dm--hlxsites.aem.page/travel-hospitality/wknd-trvl-home",
+      "description": "WKND Travel home page (Dynamic Media demo): image-only carousel with logo and intro, then tour cards, interactive hotspot map, Dynamic Media video viewer and rows of Dynamic Media image-transformation demo cards.",
+      "blocks": [
+        {
+          "name": "carousel-image-only",
+          "instances": [
+            ".carousel-wrapper > .carousel"
+          ]
+        },
+        {
+          "name": "cards-gradient",
+          "instances": [
+            ".cards-wrapper > .cards"
+          ]
+        },
+        {
+          "name": "hotspot",
+          "instances": [
+            ".hotspot-wrapper > .hotspot"
+          ]
+        },
+        {
+          "name": "embed-dm-viewer",
+          "instances": [
+            ".embed-wrapper > .embed"
+          ]
+        }
+      ],
+      "urlPattern": "/travel-hospitality/*",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Intro: image carousel, logo and WKND Travel intro",
+          "selector": [
+            "main > .section.carousel-container",
+            "main > .section:has(.carousel-wrapper)"
+          ],
+          "style": "centered",
+          "blocks": [
+            "carousel-image-only"
+          ],
+          "defaultContent": [
+            ".dynamic-wrapper",
+            ".default-content-wrapper"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Highlight: tours, interactive map, video and Dynamic Media demos",
+          "selector": [
+            "main > .section.highlight",
+            "main > .section:has(.hotspot-wrapper)"
+          ],
+          "style": "centered",
+          "blocks": [
+            "cards-gradient",
+            "hotspot",
+            "embed-dm-viewer"
+          ],
+          "defaultContent": [
+            ".default-content-wrapper"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "projectType": "xwalk"
+  }
+}

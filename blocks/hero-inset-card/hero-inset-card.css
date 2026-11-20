@@ -1,0 +1,68 @@
+.hero-inset-card-container .hero-inset-card-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-inset-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-inset-card .hero-inset-card-media {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.hero-inset-card .hero-inset-card-media picture,
+.hero-inset-card .hero-inset-card-media img {
+  display: block;
+  width: 100%;
+}
+
+.hero-inset-card .hero-inset-card-media img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.hero-inset-card .hero-inset-card-media p {
+  margin: 0;
+}
+
+.hero-inset-card .hero-inset-card-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-inset-card .hero-inset-card-card {
+  background-color: var(--background-color, #fff);
+  padding: 24px;
+}
+
+.hero-inset-card .hero-inset-card-card > :first-child {
+  margin-top: 0;
+}
+
+.hero-inset-card .hero-inset-card-card > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 900px) {
+  .hero-inset-card .hero-inset-card-media img {
+    aspect-ratio: 21 / 9;
+  }
+
+  .hero-inset-card .hero-inset-card-content {
+    margin-top: -120px;
+    padding: 0 48px;
+  }
+
+  .hero-inset-card .hero-inset-card-card {
+    max-width: 66%;
+    padding: 40px 48px;
+  }
+
+  .hero-inset-card.hero-inset-card-no-image .hero-inset-card-content {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "variantName": "columns-sidebar",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "variantDescriptor": "Unequal 2 columns: wide body copy left, narrow aside with blue top rule, small uppercase label and arrow link right.",
+    "sectionStylingNotes": "Two fixed columns: wide intro paragraph (left, about 2/3) and a narrow \"HELPFUL LINKS\" aside (right) with a blue top rule, small uppercase label and an uppercase arrow link \"CONTACT US\".",
+    "background": "#ffffff",
+    "purpose": "Intro body copy beside a narrow helpful-links aside"
+  },
+  "contentPattern": {
+    "structure": "one row, two cells: cell 1 body copy; cell 2 aside (short label paragraph followed by link paragraphs)",
+    "description": "Intro paragraph beside a Helpful Links aside (label + Contact Us link)"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for an intro paragraph with a narrow related/helpful links aside on the right.",
+  "reuseGuidance": "Reuse when columns are deliberately unequal (main 2/3, aside 1/3). The last cell is always treated as the aside.",
+  "sourceUrl": "https://www.abbvie.com/privacy-center.html"
+}

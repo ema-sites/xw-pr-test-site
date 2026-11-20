@@ -115,6 +115,66 @@
           }
         },
         {
+          "title": "Cards Gradient",
+          "id": "cards-gradient",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Gradient",
+                  "filter": "cards-gradient"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Gradient Card",
+          "id": "cards-gradient-card",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Cards Gradient Card",
+                  "model": "cards-gradient-card"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Image Top",
+          "id": "cards-image-top",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Image Top",
+                  "filter": "cards-image-top"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Image Top Card",
+          "id": "cards-image-top-card",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Cards Image Top Card",
+                  "model": "cards-image-top-card"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Cards",
           "id": "cards",
           "plugins": {
@@ -139,6 +199,36 @@
                 "template": {
                   "name": "Card",
                   "model": "card"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Image Only",
+          "id": "carousel-image-only",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Carousel Image Only",
+                  "filter": "carousel-image-only"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Image Only Item",
+          "id": "carousel-image-only-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Carousel Image Only Item",
+                  "model": "carousel-image-only-item"
                 }
               }
             }
@@ -175,6 +265,57 @@
           }
         },
         {
+          "title": "Columns Media",
+          "id": "columns-media",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "columns": "2",
+                  "rows": "1",
+                  "name": "Columns Media",
+                  "filter": "columns-media"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Columns Sidebar",
+          "id": "columns-sidebar",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "columns": "2",
+                  "rows": "1",
+                  "name": "Columns Sidebar",
+                  "filter": "columns-sidebar"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Columns Teaser",
+          "id": "columns-teaser",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "columns": "2",
+                  "rows": "1",
+                  "name": "Columns Teaser",
+                  "filter": "columns-teaser"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Columns",
           "id": "columns",
           "plugins": {
@@ -184,6 +325,21 @@
                 "template": {
                   "columns": "2",
                   "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Embed Dm Viewer",
+          "id": "embed-dm-viewer",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Embed Dm Viewer",
+                  "model": "embed-dm-viewer"
                 }
               }
             }
@@ -235,6 +391,21 @@
           }
         },
         {
+          "title": "Hero Inset Card",
+          "id": "hero-inset-card",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero Inset Card",
+                  "model": "hero-inset-card"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Hero",
           "id": "hero",
           "plugins": {
@@ -244,6 +415,37 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hotspot",
+          "id": "hotspot",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hotspot",
+                  "model": "hotspot",
+                  "filter": "hotspot"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hotspot Item",
+          "id": "hotspot-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Hotspot Item",
+                  "model": "hotspot-item"
                 }
               }
             }

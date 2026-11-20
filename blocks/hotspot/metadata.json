@@ -1,0 +1,18 @@
+{
+  "variantName": "hotspot",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "variantDescriptor": "Large background image (map) with circular hotspots positioned by left/top percentages; clicking a hotspot opens its video or viewer in a modal.",
+    "purpose": "Interactive image map that launches media"
+  },
+  "contentPattern": {
+    "structure": "row 1: background image; then one row per hotspot: cell 1 media link (video /play URL or Dynamic Media viewer URL), cell 2 left position %, cell 3 top position %",
+    "description": "Interactive hotspot map: large Iceland map image with 6 positioned circular hotspots; each hotspot opens a Dynamic Media video (5 mp4 play URLs, 1 DimensionalViewer URL)."
+  },
+  "usage": "Use for an image (map, product shot) with clickable points that each open a video or interactive viewer.",
+  "reuseGuidance": "Reuse whenever positioned clickable points over one image open media. Positions are percentages of the image width/height so they scale with it.",
+  "options": [],
+  "memberVariantIds": [],
+  "sourceUrl": "https://aem-dynamicmedia-demo--dm--hlxsites.aem.page/travel-hospitality/wknd-trvl-home"
+}

@@ -1,0 +1,20 @@
+{
+  "variantName": "cards-image-top",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "variantDescriptor": "Borderless cards: image on top, small uppercase bold title, body, uppercase arrow link; 3 per row.",
+    "sectionStylingNotes": "Three equal cards in a row: landscape image on top, small bold uppercase title, body text, uppercase blue arrow link \"LEARN MORE\". No borders or card backgrounds.",
+    "background": "#ffffff",
+    "purpose": "Row of borderless cards with image on top, title, body and link"
+  },
+  "contentPattern": {
+    "structure": "one row per card: cell 1 image; cell 2 rich text (bold title paragraph, body paragraph, link paragraph)",
+    "description": "3 cards (Job Applicants/HCPs/Patients; Clinical Investigators and Staff; Global Privacy Notices) each with image, title, text and Learn More link to a detail page"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for a set of navigational teasers (typically 3 per row) linking to detail pages.",
+  "reuseGuidance": "Reuse for image-top teaser cards without borders or card backgrounds. Use the base cards block for bordered cards.",
+  "sourceUrl": "https://www.abbvie.com/privacy-center.html"
+}

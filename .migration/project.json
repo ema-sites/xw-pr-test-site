@@ -1,0 +1,15 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "xw-pr-test-site": {
+      "previewOrg": "ema-sites",
+      "previewSite": "xw-pr-test-site",
+      "contentHostUrl": "author-p141866-e1455422.adobeaemcloud.com",
+      "aemSitePath": "/content/blefebvr-pr-test-site",
+      "aemAssetsFolderPath": "/content/dam/blefebvr-pr-test-site",
+      "aemSiteName": "blefebvr-pr-test-site",
+      "aemSiteTitle": "blefebvr-pr-test-site",
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

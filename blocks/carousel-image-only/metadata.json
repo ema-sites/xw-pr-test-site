@@ -1,0 +1,18 @@
+{
+  "variantName": "carousel-image-only",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "variantDescriptor": "Full-bleed image-only slides (no text overlay), dot indicators and prev/next arrows, auto-advance.",
+    "purpose": "Rotating full-width image showcase without text"
+  },
+  "contentPattern": {
+    "structure": "one row per slide: cell 1 image; optional cell 2 text (left empty on the source page)",
+    "description": "Image-only carousel, 5 full-width slides (no slide text), dots + prev/next arrows, auto-advancing."
+  },
+  "usage": "Use for a rotating set of full-width images (hero-style banner) where slides carry no text.",
+  "reuseGuidance": "Reuse for any image-only slideshow. Use the base carousel block when slides need overlaid text.",
+  "options": [],
+  "memberVariantIds": [],
+  "sourceUrl": "https://aem-dynamicmedia-demo--dm--hlxsites.aem.page/travel-hospitality/wknd-trvl-home"
+}
