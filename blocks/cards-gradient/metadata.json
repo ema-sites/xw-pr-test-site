@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-gradient",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "variantDescriptor": "4-up cards with black-to-grey gradient card background, image on top, white centered text; optional title, pill CTA button and description, or caption only.",
+    "background": "linear-gradient(#000, #666)",
+    "purpose": "Grid of dark gradient cards for products/tours or captioned image demos"
+  },
+  "contentPattern": {
+    "structure": "one row per card: cell 1 image; cell 2 rich text (title paragraph, CTA link paragraph, description paragraph) or a single caption line",
+    "description": "4 tour/product cards (title, RESERVE NOW / BUY NOW CTA, description) and several rows of captioned image cards (Original image, Crop variants, Flip, Colorize, ...)."
+  },
+  "usage": "Use for rows of product/tour teasers or captioned image comparisons on a dark gradient card shell.",
+  "reuseGuidance": "Reuse for gradient-shell cards with image on top and centered text. Use cards-image-top for borderless light cards.",
+  "options": [],
+  "memberVariantIds": [],
+  "sourceUrl": "https://aem-dynamicmedia-demo--dm--hlxsites.aem.page/travel-hospitality/wknd-trvl-home"
+}

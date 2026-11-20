@@ -1,0 +1,89 @@
+{
+  "definitions": [
+    {
+      "title": "Hotspot",
+      "id": "hotspot",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Hotspot",
+              "model": "hotspot",
+              "filter": "hotspot"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Hotspot Item",
+      "id": "hotspot-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Hotspot Item",
+              "model": "hotspot-item"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "hotspot",
+      "fields": [
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "image",
+          "label": "Background Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "imageAlt",
+          "value": "",
+          "label": "Background Image Alt"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-item",
+      "fields": [
+        {
+          "component": "aem-content",
+          "valueType": "string",
+          "name": "link",
+          "label": "Media URL (video or viewer)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "left",
+          "value": "",
+          "label": "Left position (%)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "top",
+          "value": "",
+          "label": "Top position (%)"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "hotspot",
+      "components": [
+        "hotspot-item"
+      ]
+    }
+  ]
+}

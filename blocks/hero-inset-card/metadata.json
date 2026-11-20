@@ -1,0 +1,20 @@
+{
+  "variantName": "hero-inset-card",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "variantDescriptor": "Photo with a white title card overlapping its bottom edge (title + subtitle in the card), not text over the image.",
+    "sectionStylingNotes": "Full-width photo (rounded top corners) with a white content card overlapping its lower edge; large dark-navy H1 and subtitle inside the card.",
+    "background": "#ffffff",
+    "purpose": "Page-top hero: photo with an overlapping white card holding the H1 and subtitle"
+  },
+  "contentPattern": {
+    "structure": "row 1: image (with alt); row 2: rich text (H1 heading + subtitle paragraph)",
+    "description": "Hero photo (man holding children's hands on beach) with H1 \"Welcome to our Privacy Center\" and subtitle \"We are committed to the ethical use of personal data.\""
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use at the top of a landing page when the title should sit in a card overlapping the bottom of the hero photo rather than over the image.",
+  "reuseGuidance": "Reuse for any hero with a photo and a separate title card. Use the plain hero block when text sits directly over the image.",
+  "sourceUrl": "https://www.abbvie.com/privacy-center.html"
+}

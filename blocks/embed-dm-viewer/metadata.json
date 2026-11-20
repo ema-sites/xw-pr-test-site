@@ -1,0 +1,18 @@
+{
+  "variantName": "embed-dm-viewer",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "variantDescriptor": "Iframe embed of an Adobe Dynamic Media (scene7 s7viewers) HTML5 video viewer URL, full content width, 16:9.",
+    "purpose": "Embedded Dynamic Media video/viewer player"
+  },
+  "contentPattern": {
+    "structure": "one row: optional poster image, then the viewer URL link",
+    "description": "Dynamic Media SmartCropVideoViewer (scene7 s7viewers HTML5 viewer URL) embedded as an iframe video player."
+  },
+  "usage": "Use to embed a Dynamic Media HTML5 viewer (video, smart crop video, dimensional, spin) by URL.",
+  "reuseGuidance": "Reuse for any s7viewers or Dynamic Media viewer URL. Use the base embed block for YouTube, Vimeo or social embeds.",
+  "options": [],
+  "memberVariantIds": [],
+  "sourceUrl": "https://aem-dynamicmedia-demo--dm--hlxsites.aem.page/travel-hospitality/wknd-trvl-home"
+}

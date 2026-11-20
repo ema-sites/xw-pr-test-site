@@ -59,7 +59,16 @@
         "table",
         "text",
         "title",
-        "video"
+        "video",
+        "hero-inset-card",
+        "columns-sidebar",
+        "columns-teaser",
+        "cards-image-top",
+        "columns-media",
+        "carousel-image-only",
+        "cards-gradient",
+        "hotspot",
+        "embed-dm-viewer"
       ]
     }
   ]

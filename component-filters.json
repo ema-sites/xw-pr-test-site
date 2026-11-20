@@ -24,7 +24,16 @@
       "table",
       "text",
       "title",
-      "video"
+      "video",
+      "hero-inset-card",
+      "columns-sidebar",
+      "columns-teaser",
+      "cards-image-top",
+      "columns-media",
+      "carousel-image-only",
+      "cards-gradient",
+      "hotspot",
+      "embed-dm-viewer"
     ]
   },
   {
@@ -34,15 +43,51 @@
     ]
   },
   {
+    "id": "cards-gradient",
+    "components": [
+      "cards-gradient-card"
+    ]
+  },
+  {
+    "id": "cards-image-top",
+    "components": [
+      "cards-image-top-card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
     ]
   },
   {
+    "id": "carousel-image-only",
+    "components": [
+      "carousel-image-only-item"
+    ]
+  },
+  {
     "id": "carousel",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "columns-media",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "columns-sidebar",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "columns-teaser",
+    "components": [
+      "column"
     ]
   },
   {
@@ -58,6 +103,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "hotspot",
+    "components": [
+      "hotspot-item"
     ]
   },
   {

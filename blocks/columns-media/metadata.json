@@ -1,0 +1,23 @@
+{
+  "variantName": "columns-media",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "variantDescriptor": "Stacked rows of image left / rich text right (heading, paragraphs, lists) at about 50/50.",
+    "sectionStylingNotes": "Pale lavender-blue (#f1f3ff) inset panel. Two rows, each image left (about half width) and text right: H2 + paragraphs; second row adds a bulleted list with inline underlined links.",
+    "background": "#f1f3ff",
+    "purpose": "Stacked image/text rows at about 50/50"
+  },
+  "contentPattern": {
+    "structure": "one row per media pair: cell 1 image; cell 2 rich text (H2, paragraphs, optional lists)",
+    "description": "Row 1: team discussion image | \"We honor your choices\" + 2 paragraphs. Row 2: woman on laptop image | \"Committed to your privacy\" + paragraph + 3-item bullet list with links"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for alternating-content style sections where each row pairs a photo with a heading and rich text; often placed in a light-blue section.",
+  "reuseGuidance": "Reuse for image-plus-text rows. Image cell position is preserved as authored on desktop and stacked first on mobile.",
+  "sourceUrl": "https://www.abbvie.com/privacy-center.html",
+  "sectionMetadata": {
+    "style": "light-blue"
+  }
+}
