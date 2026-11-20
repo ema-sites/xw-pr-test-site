@@ -179,11 +179,15 @@ function isUrlLike(text) {
 // Alt for every anchor shape: a DA link-image or UE asset field puts it in
 // `title` (`<a href=DM title=alt>DM</a>`); our older carrier puts it in the
 // link text; a linked image's title is the DM URL itself. Link text that is
-// just a URL never becomes the alt. The same rule as aem-assets-plugin.
+// just a URL never becomes the alt. The same rule as aem-assets-plugin. A
+// title equal to the link text is the link text: decorateButtons() runs
+// first and copies the text into an empty title.
 function dmAnchorAlt({ mode, title, text }) {
   const trimmedTitle = (title || '').trim();
-  if (mode === 'unlinked' && trimmedTitle && !isUrlLike(trimmedTitle)) return trimmedTitle;
   const trimmedText = (text || '').trim();
+  if (mode === 'unlinked' && trimmedTitle && trimmedTitle !== trimmedText && !isUrlLike(trimmedTitle)) {
+    return trimmedTitle;
+  }
   return isUrlLike(trimmedText) ? '' : linkTextToAlt(trimmedText);
 }
 
